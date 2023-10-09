@@ -1,0 +1,35 @@
+{
+  "name": "cypresstestspom",
+  "version": "1.0.0",
+  "description": "Cypress tests task",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Girija123/CypressTestsPOM.git"
+  },
+  "keywords": [
+    "CYpress"
+  ],
+  "author": "Girija Selvakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Girija123/CypressTestsPOM/issues"
+  },
+  "homepage": "https://github.com/Girija123/CypressTestsPOM#readme",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.10.3",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
