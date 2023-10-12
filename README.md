@@ -17,7 +17,8 @@ Framework Structure:
 
 ---
 
-- Tests - cypress/integration/addToCart/addToCart.js
+- Tests - cypress/e2e/loginTestSpec.cy.js
+- Tests - cypress/e2e/placeOrderSpec.cy.js
 
 Executing the Test scripts:
 
