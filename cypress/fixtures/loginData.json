@@ -1,5 +1,10 @@
 {
-  "username": "geogetest@mailinator.com",
-  "password": "georgetest123",
-  "expectedLoginErrorMsg": ""
+  "validCredentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidCredentials": {
+    "username": "problem_users",
+    "password": "secret_sauc"
+  }
 }

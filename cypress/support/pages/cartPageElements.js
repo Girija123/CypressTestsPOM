@@ -1,5 +1,7 @@
 export const cartPageSelectors={
-    cartPageTitle: '.page-title',
-    cartItem: '.cart_item',
-    priceLocator: '.product-price .amount'
+    cartContainer: '#shopping_cart_container',
+    cartPageTitleLabel: '.title',
+    cartItemSection: '.cart_item',
+    cartBadge: '.shopping_cart_badge',
+    checkoutBtn: '#checkout'
 }

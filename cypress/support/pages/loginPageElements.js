@@ -1,7 +1,8 @@
-export const loginPageSelectors={
-    myAccountPageTitle: '.page-title',
-    usernameTxtFld: '#username',
-    passwordTxtFld: '#password',
-    loginSubmitBtn: 'button[name="login"]',
-    loginValidationTxt: '.woocommerce-error > li'
-}
+/** @format */
+
+export const loginPageSelectors = {
+  usernameTxtFld: "#user-name",
+  passwordTxtFld: "#password",
+  loginSubmitBtn: "#login-button",
+  loginErrorFld: ".error-button",
+};

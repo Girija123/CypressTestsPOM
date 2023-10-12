@@ -15,7 +15,7 @@ module.exports = defineConfig({
     charts: true
   },
   e2e: {
-    baseUrl: 'https://cms.demo.katalon.com/',
+    baseUrl: 'https://www.saucedemo.com/',
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     setupNodeEvents(on, config) {
       // implement node event listeners here
